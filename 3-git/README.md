@@ -98,7 +98,7 @@ Here is a guide how to start working with Git.
 
 ## Merge Request
 
-   A Merge Request command is used to merge changes from your branch into develop (master) branch.
+   A Merge Request command is used to merge changes from your branch into develop branch.
 
 1. If you haven't pushed changes to the server - just skip this item, else - open [remote repository](https://git.avantize.com) and go to your project.
 2. Click Create Merge Request button (in the top-right corner).
