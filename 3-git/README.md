@@ -106,6 +106,9 @@ Here is a guide how to start working with Git.
 3. Fill Title, Description fields, set Assignee (your supervisor) and click Submit merge request.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-2.png"/></p>
 
+   If everything okay and supervisor approved your code then you switch to develop branch (Check Out...), make [Pull](#pull) and delete that branch.
+   Else if you did some mistakes then you receive notifications which point you what you must fix. Fix them, commit and push again.
+
 ## Pull
 
    A Pull command incorporates changes from a remote repository into the current branch.
