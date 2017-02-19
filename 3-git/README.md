@@ -54,6 +54,7 @@ Here is a guide how to start working with Git.
    ```
    feature/settings
    feature/qt-integration
+   feature/users-and-roles
    ```
    1-3 words always enought to name a branch for specific task.
 
