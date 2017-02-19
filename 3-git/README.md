@@ -6,10 +6,10 @@ Here is a guide how to start working with Git.
    - [Introduction](#introduction)
    - [First Steps](#first-steps)
    - [Braches](#branches)
-   - [Pull](#pull)
    - [Commit](#commit)
    - [Push](#push)
    - [Merge Request](#merge-request)
+   - [Pull](#pull)
 
 ## Introduction
 
@@ -59,21 +59,6 @@ Here is a guide how to start working with Git.
    ```
    1-3 words always enought to name a branch for specific task.
 
-## Pull
-
-   A Pull command incorporates changes from a remote repository into the current branch.
-   
-1. Open SmartGit and push Pull button (in the top-left corner).
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-1.png"/></p>
-2. Pass configuration settings (just leave everything by default) and press Configure.
-
-   This dialog appears only once during configuration.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-2.png"/></p>
-3. And after all press Pull.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-3.png"/></p>
-
-   Now all files from the project must be updated.
-
 ## Commit
 
    A Commit command is used to save local changes in the local repository.
@@ -120,3 +105,18 @@ Here is a guide how to start working with Git.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-1.png"/></p>
 3. Fill Title, Description fields, set Assignee (your supervisor) and click Submit merge request.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-2.png"/></p>
+
+## Pull
+
+   A Pull command incorporates changes from a remote repository into the current branch.
+   
+1. Open SmartGit and push Pull button (in the top-left corner).
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-1.png"/></p>
+2. Pass configuration settings (just leave everything by default) and press Configure.
+
+   This dialog appears only once during configuration.
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-2.png"/></p>
+3. And after all press Pull.
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/pull/img-3.png"/></p>
+
+   Now all files from the project must be updated.
