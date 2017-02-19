@@ -20,7 +20,7 @@ Here is a guide how to start working with Git.
 ## First Steps
 
 1. First of all you need public and private keys. Here is a [tutorial](https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html) (or [this one](https://help.github.com/articles/connecting-to-github-with-ssh/)) that provides instructions how to generate and add public ssh key to your gitlab account.
-2. Then go to [Your projects](https://git.avantize.com "Git Avantize") and open your leaning project.
+2. Then open [Your projects](https://git.avantize.com "Git Avantize") and go to your leaning project.
 3. Copy URL for your learning repository.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/first-steps/img-1.png"/></p>
 4. Launch SmartGit -> Repository -> Clone...
