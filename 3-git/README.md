@@ -116,7 +116,7 @@ Here is a guide how to start working with Git.
    A Merge Request command is used to merge changes from your branch into develop (master) branch.
 
 1. If you haven't pushed changes to the server - just skip this item, else - open [remote repository](https://git.avantize.com) and go to your project.
-2. Click Create Merge Request button.
+2. Click Create Merge Request button (in the top-right corner).
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-1.png"/></p>
 3. Fill Title, Description fields, set Assignee (your supervisor) and click Submit merge request.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-2.png"/></p>
