@@ -9,6 +9,7 @@ Here is a guide how to start working with Git.
    - [Pull](#pull)
    - [Commit](#commit)
    - [Push](#push)
+   - [Merge Request](#merge-request)
 
 ## Introduction
 
@@ -108,4 +109,14 @@ Here is a guide how to start working with Git.
 1. All changes were commited and they are under your local branch. Time to push changes to the [server](git.avantize.com). Select current branch -> right click on it -> Push..
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/push/img-1.png"/></p>
 
-   Now all changes on the remote repository. Go to the next item.
+   Now all changes on the remote repository. Go to the Merge Request item.
+
+## Merge Request
+
+   A Merge Request command is used to merge changes from your branch into develop (master) branch.
+
+1. If you haven't pushed changes to the server - just skip this item, else - open [remote repository](https://git.avantize.com) and go to your project.
+2. Click Create Merge Request button.
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-1.png"/></p>
+3. Fill Title, Description fields and set Assignee (your supervisor).
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/3-git/imgs/merge-request/img-2.png"/></p>
