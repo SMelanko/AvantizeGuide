@@ -22,7 +22,7 @@ Here is a guide how to install and configure Mattermost.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-4.png"/></p>
 
-   That is all. Please turn your attention to Channels:
+   That is all. Please turn your attention to the Channels tab:
    
    * __Off-Topic__ - for news links, memes, funny videos and other trash.
 	  
