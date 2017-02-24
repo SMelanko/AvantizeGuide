@@ -8,6 +8,7 @@ Here is a guide how to install and configure Mattermost.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-1.png"/></p>
    
+   
    Simply click the "Install" button to continue installation process.
 
 2. In the Settings page click "Add new team" and fill "Name" and "URL" fields.
