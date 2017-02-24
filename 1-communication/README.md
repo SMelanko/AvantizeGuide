@@ -2,13 +2,13 @@
 
 Here is a guide for installing and configuring some communication applications.
 
-Required:
+##Required
 
 1. Mozilla Thunderbird.
 
 2. Mattermost.
 
-Optional:
+##Optional
 
 * Skype.
 
