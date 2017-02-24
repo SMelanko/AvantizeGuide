@@ -27,6 +27,5 @@ Here is a guide how to install and configure Mattermost.
    * __Off-Topic__ - for news links, memes, funny videos and other trash.
 	  
    * __Town Square__ - for company notifications about holidays, corporate parties, taxes, exchange rate and etc.
-   
 
-Last but not least please check [this page](https://docs.mattermost.com/help/messaging/formatting-text.html)
+Last but not least, please look through [this page](https://docs.mattermost.com/help/messaging/formatting-text.html), where you can find some useful formatting tips.
