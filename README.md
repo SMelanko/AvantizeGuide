@@ -17,6 +17,11 @@ Here is a guide for installing and setting communication applications, Redmine, 
 
 5. Install (for Windows) or update (for Ubuntu) [CMake](https://cmake.org).
 
-5. Install [Boost](http://www.boost.org) libraries.
+6. Install [Boost](http://www.boost.org) libraries.
 
-9. Install [Qt](https://www.qt.io).
+7. Install [Qt](https://www.qt.io).
+
+8. Static code analyzer
+
+  * Windows: [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
+  * Ubuntu: TODO:
