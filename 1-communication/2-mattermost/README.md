@@ -6,9 +6,9 @@ Here is a guide how to install and configure Mattermost.
 
    If you haven't installed .NET yet then such dialog should be shown.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-1.png"/></p>
-   Simply click the _Install_ button to continue installation process.
+   Simply click the '_Install_' button to continue installation process.
 
-2. In the Settings page click _Add new team_ button and fill _Name_ and _URL_ fields.
+2. In the Settings page click '_Add new team_' button and fill '_Name_' and '_URL_' fields.
    ```
    Name - avantize
    URL - https://chat.avantize.com
@@ -17,9 +17,9 @@ Here is a guide how to install and configure Mattermost.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-2.png"/></p>
    In this page you can configure some options or just leave them by default.
 
-3. Click _GitLab_ button to authorize using your GitLab account.
+3. Click '_GitLab_' button to authorize using your GitLab account.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-3.png"/></p>
-4. Enter your _LDAP Username_ and _Password_ credentials and click _Sign in_ button.
+4. Enter your '_LDAP Username_' and '_Password_' credentials and click '_Sign in_' button.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-4.png"/></p>
 
