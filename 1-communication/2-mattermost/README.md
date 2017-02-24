@@ -27,11 +27,10 @@ Here is a guide how to install and configure Mattermost.
    * __Off-Topic__ - for news links, memes, funny videos and other trash.
 	  
    * __Town Square__ - for company notifications about holidays, corporate parties, taxes, exchange rate and etc.
-	  
+   
    Tips:
    
    If you want to send a part of your code please use this scenario:
-   ```
       ``` cpp
       #include <iostream>
       #include <string>
@@ -44,4 +43,3 @@ Here is a guide how to install and configure Mattermost.
 	 return 0;
       }
       ```
-   ```
