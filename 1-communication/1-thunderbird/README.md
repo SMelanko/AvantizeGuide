@@ -11,7 +11,7 @@ Here is a guide how to install and configure Mozilla Thunderbird email client.
 
 3. Fill '_Your name_', '_Email address_' and '_Password_' fields and click '_Continue_' button.
 
-   Please use this patter for '_Your name_' field.
+   Please use this patter for '_Your name_' field:
    ```
       <First letter of your name>.<Surname>
    ```
