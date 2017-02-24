@@ -13,6 +13,7 @@ Here is a guide how to install and configure Mattermost.
    Name - avantize
    URL - https://chat.avantize.com
    ```
+   Also you can use this URL to open chat in browser.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-2.png"/></p>
    In this page you can configure some options or just leave them by default.
 
