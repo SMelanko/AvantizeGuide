@@ -20,7 +20,7 @@ Here is a guide how to install and configure Mattermost.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-3.png"/></p>
 
-4. Enter LDAP Username and Password fields and click "Sign in" button.
+4. Enter your LDAP Username and Password credentials and click "Sign in" button.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-4.png"/></p>
 
