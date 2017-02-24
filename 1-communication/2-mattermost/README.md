@@ -22,15 +22,26 @@ Here is a guide how to install and configure Mattermost.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-4.png"/></p>
 
-   Channels:
+   That is all. Please turn your attention to Channels:
    
-      Off-Topic - news links, memes, fanny videos and other trash.
+   * __Off-Topic__ - for news links, memes, funny videos and other trash.
 	  
-	  Town Square - company notifications about holidays, corporate parties, taxes, exchange rate and etc.
+   * __Town Square__ - for company notifications about holidays, corporate parties, taxes, exchange rate and etc.
 	  
    Tips:
    
-      If you want to send a part of your code please use this scenario:
-	  ```
-	  bla bla bla
-	  ```
+   If you want to send a part of your code please use this scenario:
+   ```
+      ``` cpp
+      #include <iostream>
+      #include <string>
+      
+      int main(int argc, char* argv[])
+      {
+         std::string str = "Hello, World!";
+	 std::cout << str << std::endl;
+	 
+	 return 0;
+      }
+      ```
+   ```
