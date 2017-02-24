@@ -17,9 +17,7 @@ Here is a guide how to install and configure Mattermost.
    In this page you can configure some options or just leave them by default.
 
 3. Click "Gitab" button to authorize using your GitLab account.
-
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-3.png"/></p>
-
 4. Enter your LDAP Username and Password credentials and click "Sign in" button.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/2-mattermost/imgs/img-4.png"/></p>
