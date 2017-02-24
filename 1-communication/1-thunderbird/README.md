@@ -21,4 +21,4 @@ Here is a guide how to install and configure Mozilla Thunderbird email client.
 4. In the end click '_Done_' button. Leave all configuration settings by default.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/1-communication/1-thunderbird/imgs/img-3.png"/></p>
 
-   Check installed client using your personal email.
+   Test installed client using your personal email.
