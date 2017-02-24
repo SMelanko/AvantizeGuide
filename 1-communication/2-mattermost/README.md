@@ -28,18 +28,5 @@ Here is a guide how to install and configure Mattermost.
 	  
    * __Town Square__ - for company notifications about holidays, corporate parties, taxes, exchange rate and etc.
    
-   Tips:
-   
-   If you want to send a part of your code please use this scenario:
-      ``` cpp
-      #include <iostream>
-      #include <string>
-      
-      int main(int argc, char* argv[])
-      {
-         std::string str = "Hello, World!";
-	 std::cout << str << std::endl;
-	 
-	 return 0;
-      }
-      ```
+
+Last but not least please check [this page](https://docs.mattermost.com/help/messaging/formatting-text.html)
