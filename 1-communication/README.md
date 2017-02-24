@@ -10,8 +10,8 @@ Required:
 
 Optional:
 
-1. Skype.
+* Skype.
 
-2. Viber.
+* Viber.
 
-...
+* ...
