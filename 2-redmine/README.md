@@ -13,7 +13,7 @@ Here is a guide how to start working with Redmine.
   ```
   Status -> In Progress.
   ```
-  * You are working on task but it isn't finished yet by the end of working day.
+  * You are working on task but it isn't finished yet by the end of the working day.
   ```
   Status -> In Progress.
   % Done -> Select Percent of executed work.
