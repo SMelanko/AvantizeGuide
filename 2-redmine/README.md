@@ -2,7 +2,7 @@
 
 Here is a guide how to start working with Redmine.
 
-1. Open [Redmine](https://redmine.avantize.com/projects) project page, choose learning projects and then _Issues_ tab.
+1. Open [Redmine](https://redmine.avantize.com/projects) project page, choose learning projects and then switch to _Issues_ tab.
 
    Here you can see a list of all tasks.
    And the first your task is _Environment setup_.
