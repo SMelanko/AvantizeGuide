@@ -28,5 +28,5 @@ Here is a guide how to start working with Redmine.
   Spent time -> Enter amount of hours.
   Activity -> Set Design or Development item.
   ```
-  
-  __You must update your task every day minimum once.__
+
+### __You must update your task every day minimum once.__
