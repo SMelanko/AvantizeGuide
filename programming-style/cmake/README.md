@@ -8,4 +8,4 @@ Here are some rules we are sticking to.
 
 1. All variable in uppercase format.
 
-2. Alphabetical order.
+2. Use alphabetical order.
