@@ -12,6 +12,4 @@ Here is a guide for installing and configuring some communication applications.
 
 * Skype.
 
-* Viber.
-
 * ...
