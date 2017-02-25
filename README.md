@@ -1,6 +1,6 @@
 # Avantize Guide
 
-Here is a guide for installing and setting communication applications, Redmine, Git and for our programming style.
+Here is a guide for installing and configuring all environment setup and for our programming style.
 
 ##Environment Setup
 
