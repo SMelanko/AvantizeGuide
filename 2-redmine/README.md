@@ -8,7 +8,7 @@ Here is a guide how to start working with Redmine.
    
    And the first your task is _Environment setup_.
 
-2. There are 3 cases which you should remember.
+2. There are 3 cases when you must update current task.
   * You start working on task.
   ```
   Status -> In Progress.
