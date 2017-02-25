@@ -2,7 +2,7 @@
 
 1. Install Windows or Ubuntu and all necessary drivers.
 
-2. [Communication clients](../communication/README.md).
+2. [Communication clients](../../communication/README.md).
 
 3. Install developer tools.
 
