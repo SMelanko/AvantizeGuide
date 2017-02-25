@@ -36,16 +36,16 @@ find_package(Boost REQUIRED COMPONENTS
 	)
 
 set(HEADERS
-    include/Example.h
-    )
+	include/Example.h
+	)
 
 set(SOURCES
-    src/Example.cpp
-    src/Main.cpp
-    )
+	src/Example.cpp
+	src/Main.cpp
+	)
 
 set(MISC
-    src/pch.h
+    	src/pch.h
 	)
 
 if (MSVC)
@@ -55,18 +55,18 @@ if (MSVC)
 endif ()
 
 include_directories(
-    include
-    ${Boost_INCLUDE_DIRS}
-    )
+	include
+	${Boost_INCLUDE_DIRS}
+	)
 
 add_executable(${PROJECT_NAME}
-    ${HEADERS}
-    ${SOURCES}
-    ${MISC}
-    )
+	${HEADERS}
+	${SOURCES}
+	${MISC}
+	)
 
 add_precompiled_headers(${PROJECT_NAME} "src/")
 
 target_link_libraries(${PROJECT_NAME}
-    ${Boost_LIBRARIES}
-    )
+	${Boost_LIBRARIES}
+	)
