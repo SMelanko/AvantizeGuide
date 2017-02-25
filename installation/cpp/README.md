@@ -9,7 +9,7 @@
   * Windows: latest Visual Studio IDE + Visual Assist.
   * Ubuntu: latest QtCreator or CLion.
   
-4. [Install Git and SmartGit client](3-git/README.md).
+4. [Install Git and SmartGit client](../../git/README.md).
 
 5. Install (for Windows) or update (for Ubuntu) [CMake](https://cmake.org).
 
@@ -21,3 +21,5 @@
 
   * Windows: [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
   * Ubuntu: TODO:
+
+9. Please look throught our [coding style](../../programming-style) rules.
