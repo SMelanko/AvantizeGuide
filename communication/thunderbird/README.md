@@ -2,7 +2,7 @@
 
 Here is a guide how to install and configure Mozilla Thunderbird email client.
 
-1. __Windows__: Download installation file, open it, pass setup wizard and launch application.
+1. __Windows__: Download [installation file](https://www.mozilla.org/ru/thunderbird/), open it, pass setup wizard and launch application.
 
    Setup type - standard.
    
