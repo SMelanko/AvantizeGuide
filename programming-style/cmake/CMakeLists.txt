@@ -1,10 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 
-project(Example CXX)
-
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
-
-include(PCHSupport)
+project(ExampleProjectName CXX)
 
 if (MSVC14 OR MSVC12) # Has the support we need.
 	add_definitions(-D_SCL_SECURE_NO_WARNINGS)
@@ -31,7 +27,6 @@ find_package(Boost REQUIRED COMPONENTS
 	exception
 	filesystem
 	program_options
-	serialization
 	system
 	)
 
@@ -44,16 +39,6 @@ set(SOURCES
 	src/Main.cpp
 	)
 
-set(MISC
-	src/pch.h
-	)
-
-if (MSVC)
-	source_group("Header Files" FILES ${HEADERS})
-	source_group("Source Files" FILES ${SOURCES})
-	source_group("" FILES ${MISC})
-endif ()
-
 include_directories(
 	include
 	${Boost_INCLUDE_DIRS}
@@ -62,10 +47,7 @@ include_directories(
 add_executable(${PROJECT_NAME}
 	${HEADERS}
 	${SOURCES}
-	${MISC}
 	)
-
-add_precompiled_headers(${PROJECT_NAME} "src/")
 
 target_link_libraries(${PROJECT_NAME}
 	${Boost_LIBRARIES}
