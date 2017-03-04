@@ -13,7 +13,7 @@ Here are some rules we are sticking to.
    set(LIBRARY_PATH ...)
    ```
 
-2. Use alphabetical order in lists, for example:
+2. Use alphabetical order in the lists, for example:
 
    ``` cmake
    find_package(Boost REQUIRED COMPONENTS
