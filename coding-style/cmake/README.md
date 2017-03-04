@@ -6,14 +6,14 @@ Please look through [CMakeLists.txt](CMakeLists.txt).
 
 Here are some rules we are sticking to.
 
-1. All variable in uppercase format. For example:
+1. All variable in uppercase format, for example:
 
    ``` cmake
    set(HEADERS ...)
    set(LIBRARY_PATH ...)
    ```
 
-2. Use alphabetical order in lists. For example:
+2. Use alphabetical order in lists, for example:
 
    ``` cmake
    find_package(Boost REQUIRED COMPONENTS
