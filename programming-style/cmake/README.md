@@ -8,7 +8,7 @@ Here are some rules we are sticking to.
 
 1. All variable in uppercase format. For example:
 
-   ```
+   ``` cmake
    set(HEADERS ...)
    set(LIBRARY_PATH ...)
    ```
