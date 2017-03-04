@@ -22,4 +22,4 @@
   * Windows: [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
   * Ubuntu: TODO:
 
-9. Please look throught our [coding style](../../programming-style) rules.
+9. Please look throught our [coding style](../../coding-style) rules.
