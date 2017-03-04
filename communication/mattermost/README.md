@@ -2,7 +2,7 @@
 
 Here is a guide how to install and configure Mattermost.
 
-1. Download installation file and open it.
+1. Download installation package and open (extract) it.
 
    __Windows__: If you haven't installed .NET yet then such dialog should be shown.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/communication/mattermost/imgs/img-1.png"/></p>
