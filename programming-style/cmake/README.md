@@ -14,4 +14,15 @@ Here are some rules we are sticking to.
    ```
 
 2. Use alphabetical order in lists. For example:
-<p align="left"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/programming-style/cmake/imgs/img-1.png"/></p>
+
+   ``` cmake
+   find_package(Boost REQUIRED COMPONENTS
+      algorithm
+      concept
+      exception
+	   filesystem
+	   program_options
+	   serialization
+	   system
+	   )
+   ```
