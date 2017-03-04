@@ -14,4 +14,4 @@ Here are some rules we are sticking to.
    ```
 
 2. Use alphabetical order in lists. For example:
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/programming-style/cmake//imgs/cmake-1.png"/></p>
+<p align="left"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/programming-style/cmake//imgs/cmake-1.png"/></p>
