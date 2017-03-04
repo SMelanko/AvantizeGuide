@@ -45,7 +45,7 @@ set(SOURCES
 	)
 
 set(MISC
-    	src/pch.h
+	src/pch.h
 	)
 
 if (MSVC)
