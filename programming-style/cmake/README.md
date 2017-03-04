@@ -13,4 +13,4 @@ Here are some rules we are sticking to.
    set(LIBRARY_PATH ...)
    ```
 
-2. Use alphabetical order.
+2. Use alphabetical order in lists. For example:
