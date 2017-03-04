@@ -62,21 +62,21 @@ Here is a guide how to start working with Git.
 
    A Commit command is used to save local changes in the local repository.
    
-1. Open SmartGit, select a project and navigate to the Files widget. Select files which you want to commit. Right click on selected files and press Commit... from menu.
+1. Open SmartGit, select a project and navigate to the '_Files_' widget. Select files which you want to commit. Right click on selected files and press '_Commit..._' from menu.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/commit/img-1.png"/></p>
 2. In the opened dialog you should describe that you have done and press Commit.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/commit/img-2.png"/></p>
 
    Please use past simple or past simple passive forms for commit.
  
-   If you have done a lot of changes just numerate them, for example
+   If you have done a lot of changes just numerate them, for example:
    ```
    1. Fixed constructor of the Table class.
    2. Fixed code issues.
    3. ...
    ```
 
-   If you don't know what you should write, use these tips
+   If you don't know what you should write, use these tips:
    ```
    n. Code refactoring.
    n. Fixed code issues.
