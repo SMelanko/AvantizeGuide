@@ -40,7 +40,7 @@ Here is a guide how to start working with Git.
 
    A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process in Git. You can think of them as a way to request a brand new working directory, staging area, and project history.
    
-1. Open SmartGit, select a project and navigate to the Branches widget. Right click on Local Branches item -> Add Branch....
+1. Open SmartGit, select a project and navigate to the '_Branches_' widget. Right click on '_Local Branches_' item -> '_Add Branch..._'.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/branches/img-1.png"/></p>
 2. Name your local branch.
 
