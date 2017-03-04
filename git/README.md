@@ -31,9 +31,9 @@ Here is a guide how to start working with Git.
 7. Pass authentication to the git.avantize.com.
 
    If you made a passphrase before - enter it, else - leave this field empty.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-5.png"/></p>
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-4.png"/></p>
 8. Specify the local directory and click '_Finish_' button.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-6.png"/></p>
+<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-5.png"/></p>
    Open folder from this item. Here will be your source files.
 
 ## Branches
