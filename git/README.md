@@ -46,11 +46,11 @@ Here is a guide how to start working with Git.
 
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/branches/img-2.png"/></p>
 
-   Please note we use pattern for naming of branches
+   Please note we use pattern for naming of branches.
    ```
    feature/branch-name
    ```
-   for example
+   For example:
    ```
    feature/settings
    feature/qt-integration
