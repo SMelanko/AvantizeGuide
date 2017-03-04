@@ -25,15 +25,15 @@ Here is a guide how to start working with Git.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-1.png"/></p>
 4. Launch SmartGit -> Repository -> Clone...
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-2.png"/></p>
-5. Paste your URL which was copied on the 3rd step and press Continue.
+5. Paste your URL which was copied on the 3rd step and click '_Continue_' button.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-3.png"/></p>
-6. On the Selection page press Continue.
+6. On the Selection page click '_Continue_' button.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-4.png"/></p>
 7. Pass authentication to the git.avantize.com.
 
    If you made a passphrase before - enter it, else - leave this field empty.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-5.png"/></p>
-8. Specify the local directory and press Finish.
+8. Specify the local directory and click '_Finish_' button.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-6.png"/></p>
    Open folder from this item. Here will be your source files.
 
