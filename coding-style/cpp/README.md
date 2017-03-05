@@ -21,7 +21,7 @@ Here is a guide for C++ Coding Style.
 ## Enums.
    
    ```
-   //! GOOD.
+   // GOOD.
    enum class Role
    {
       USER,
@@ -29,13 +29,62 @@ Here is a guide for C++ Coding Style.
       SUPER_USER
    };
    
-   /// NOT BAD.
+   // NOT BAD.
    enum Color
    {
       RED,
       GREEN,
       BLUE
    };
+   ```
+
+## Statements.
+
+   * if - else if - else.
+   
+   ``` cpp
+   // GOOD.
+   if (index > v.size()) {
+      BOOST_THROW_EXCEPTION(std::runtime_error{ "Bad index." });
+   }
+   
+   // GOOD.
+   auto role = GetRole();
+   
+   if (role == Role::USER) {
+      // ...
+   } else if (role == Role::ADMIN) {
+      // ...
+   } else {
+      // ...
+   }
+   ```
+   
+   * loops.
+   
+   ``` cpp
+   // GOOD.
+   for (size_t i = 0; i < v.size(); ++i) {
+      // ...
+   }
+   
+   while (condition) {
+      // ...
+   }
+   
+   do {
+      // ...
+   } while (condition);
+   
+   // PERFECT.
+   for (const auto& val : v) {
+      // ...
+   }
+   
+   // GOD.
+   std::for_each(std::begin(v), std::end(v), [](const auto& val) {
+      // ...
+   });
    ```
 
 ## Functions
