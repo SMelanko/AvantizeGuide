@@ -4,6 +4,8 @@ Here is a guide for C++ Coding Style.
 
 ## Defines
 
+   Naming: Uppercase format plus underscore: ```FOO_BAR```
+   
    ``` cpp
    #define MAJOR_VERSION 1
    #define MINOR_VERSION 2
