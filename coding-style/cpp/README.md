@@ -11,7 +11,6 @@ Here is a guide for C++ Coding Style.
    Main.cpp
    Utils.h + Utils.cpp
    HttpServer.h + HttpServer.cpp
-   ErrorDialog.h + ErrorDialog.cpp or ErrDlg.h + ErrDlg.cpp
    FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
    
    // NEVER EVER.
@@ -51,6 +50,16 @@ Here is a guide for C++ Coding Style.
    // Usage.
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
       { "Acting", "Cooking", "Dance", "Video game" });
+      
+   // BAD
+   void Foo(const Parameter1 p1, const Parameter2 p2, ...);
+   void Foo(const Parameter1 p1,
+      const Parameter2 p2,
+      ...);
+   void Foo(
+      const Parameter1 p1,
+      const Parameter2 p2,
+      ...);
    ```
 
 ## Defines
