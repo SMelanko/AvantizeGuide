@@ -19,6 +19,39 @@ Here is a guide for C++ Coding Style.
    HTTPServer.h + HTTPServer.cpp
    ```
 
+## Funtions
+
+   __Naming__: Camel style. Shorthand format is also allowed to use.
+   
+   ```
+   // GOOD
+   std::string GetProductName();
+   std::string GetAppName();
+   ```
+   
+   __Rule of thumb__:
+   
+   * Put space between function parameters.
+   
+   ```
+   // GOOD
+   auto user = std::make_unique<User>("Jason", "Statham", 49);
+   
+   // BAD
+   auto user = std::make_unique<User>("Jason","Statham",49);
+   ```
+   
+   * If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
+   
+   ```
+   // Declaration.
+   std::string MakeUser(const std::string& name, const std::string& surname, const int age, const Gender gender, const std::vector<std::string>& hobbies);
+   
+   // Usage.
+   const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
+      { "Acting", "Cooking", "Dance", "Video game" });
+   ```
+
 ## Defines
 
    __Naming__: Uppercase format plus underscore.
