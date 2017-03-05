@@ -6,16 +6,16 @@
 
 3. Install (for Windows) or update (for Ubuntu) [CMake](https://cmake.org).
   
-4. [Install Git and SmartGit client](../../git/README.md).
+4. [Git and SmartGit client](../../git/README.md).
 
-5. Install developer tools.
+5. Developer tools.
 
   * Windows: latest Visual Studio IDE + Visual Assist.
   * Ubuntu: latest QtCreator or CLion.
 
-6. Install [Boost](http://www.boost.org) libraries.
+6. [Boost](http://www.boost.org) libraries.
 
-7. Install [Qt](https://www.qt.io).
+7. [Qt](https://www.qt.io).
 
 8. Static code analyzer
 
