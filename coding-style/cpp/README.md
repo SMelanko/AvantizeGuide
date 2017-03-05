@@ -46,7 +46,6 @@ Here is a guide for C++ Coding Style.
    
    ``` cpp
    // GOOD.
-   
    // Declaration.
    std::string MakeUser(const std::string& name, const std::string& surname,
       const int age, const Gender gender, const std::vector<std::string>& hobbies);
