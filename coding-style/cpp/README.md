@@ -45,15 +45,16 @@ Here is a guide for C++ Coding Style.
    * If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
    
    ``` cpp
+   // GOOD.
+   
    // Declaration.
    std::string MakeUser(const std::string& name, const std::string& surname,
       const int age, const Gender gender, const std::vector<std::string>& hobbies);
-   
    // Usage.
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
       { "Acting", "Cooking", "Dance", "Video game" });
       
-   // BAD
+   // BAD.
    void Foo(const Parameter1 p1, const Parameter2 p2, ...);
    void Foo(const Parameter1 p1,
       const Parameter2 p2,
