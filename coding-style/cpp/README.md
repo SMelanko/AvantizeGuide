@@ -6,7 +6,7 @@ Here is a guide for C++ Coding Style.
 
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
-   ```
+   ``` cpp
    // GOOD
    Main.cpp
    Utils.h + Utils.cpp
@@ -23,7 +23,7 @@ Here is a guide for C++ Coding Style.
 
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
-   ```
+   ``` cpp
    // GOOD
    std::string GetProductName();
    std::string GetAppName();
@@ -33,7 +33,7 @@ Here is a guide for C++ Coding Style.
    
    * Put space between function parameters.
    
-   ```
+   ``` cpp
    // GOOD
    auto user = std::make_unique<User>("Jason", "Statham", 49);
    
@@ -43,7 +43,7 @@ Here is a guide for C++ Coding Style.
    
    * If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
    
-   ```
+   ``` cpp
    // Declaration.
    std::string MakeUser(const std::string& name, const std::string& surname, const int age, const Gender gender, const std::vector<std::string>& hobbies);
    
