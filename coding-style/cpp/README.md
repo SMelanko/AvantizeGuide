@@ -30,7 +30,7 @@ Here is a guide for C++ Coding Style.
    
    __Rule of thumb__:
    
-   * Put space between function parameters.
+   * Put spaces between function parameters.
    
    ``` cpp
    // GOOD.
