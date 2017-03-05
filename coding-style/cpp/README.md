@@ -62,6 +62,25 @@ Here is a guide for C++ Coding Style.
    }
    ```
    
+   * switch.
+   
+   ``` cpp
+   switch (role)
+   {
+      case Role::USER:
+         // ...
+         break;
+
+      case Role::ADMIN:
+         // ...
+         break;
+
+      default:
+         // ...
+         break;
+   }
+   ```
+   
    * loops.
    
    ``` cpp
