@@ -6,7 +6,7 @@ Here is a guide for C++ Coding Style.
 
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
-   ```
+   ``` cpp
    // GOOD.
    Main.cpp
    Utils.h + Utils.cpp
