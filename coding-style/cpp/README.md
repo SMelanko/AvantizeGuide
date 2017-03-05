@@ -25,7 +25,8 @@ Here is a guide for C++ Coding Style.
    ``` cpp
    // GOOD.
    std::string GetProductName();
-   std::string GetAppName();
+   using StringOpt = boost::optional<std::string>;
+   std::string GetUserAgent(const StringOpt& uin = StringOpt{});
    ```
    
    __Rule of thumb__:
