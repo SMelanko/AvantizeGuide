@@ -30,7 +30,6 @@ Here is a guide for C++ Coding Style.
 
    #define STR(s) #s
    #define XSTR(s) STR(s)
-   #define APP_VERSION \
-      XSTR(MAJOR_VERSION) "." XSTR(MINOR_VERSION) "." XSTR(PATCH_VERSION)
+   #define APP_VERSION XSTR(MAJOR_VERSION) "." XSTR(MINOR_VERSION) "." XSTR(PATCH_VERSION)
    ```
 
