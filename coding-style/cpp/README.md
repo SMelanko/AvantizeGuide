@@ -20,7 +20,7 @@ Here is a guide for C++ Coding Style.
 
 ## Enums.
    
-   ```
+   ``` cpp
    // GOOD.
    enum class Role
    {
