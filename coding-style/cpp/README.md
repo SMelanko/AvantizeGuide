@@ -2,6 +2,19 @@
 
 Here is a guide for C++ Coding Style.
 
+## Source files
+
+   __Naming__: Camel style. Shorthand format is also allowed to use.
+   
+   ```
+   // GOOD
+   Main.cpp
+   Utils.h + Utils.cpp
+   HttpServer.h + HttpServer.cpp
+   ErrorDialog.h + ErrorDialog.cpp or ErrDlg.h + ErrDlg.cpp
+   FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
+   ```
+
 ## Defines
 
    __Naming__: Uppercase format plus underscore.
