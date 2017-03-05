@@ -4,14 +4,14 @@
 
 2. [Communication clients](../../communication/README.md).
 
-3. Install developer tools.
-
-  * Windows: latest Visual Studio IDE + Visual Assist.
-  * Ubuntu: latest QtCreator or CLion.
+3. Install (for Windows) or update (for Ubuntu) [CMake](https://cmake.org).
   
 4. [Install Git and SmartGit client](../../git/README.md).
 
-5. Install (for Windows) or update (for Ubuntu) [CMake](https://cmake.org).
+5. Install developer tools.
+
+  * Windows: latest Visual Studio IDE + Visual Assist.
+  * Ubuntu: latest QtCreator or CLion.
 
 6. Install [Boost](http://www.boost.org) libraries.
 
