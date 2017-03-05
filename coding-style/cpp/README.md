@@ -13,6 +13,10 @@ Here is a guide for C++ Coding Style.
    HttpServer.h + HttpServer.cpp
    ErrorDialog.h + ErrorDialog.cpp or ErrDlg.h + ErrDlg.cpp
    FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
+   
+   // NEVER EVER
+   main.pp
+   HTTPServer.h + HTTPServer.cpp
    ```
 
 ## Defines
