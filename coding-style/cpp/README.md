@@ -1,6 +1,13 @@
 # Avantize C++ Coding Style Guide
 
-Here is a guide for C++ Coding Style.
+- [C++ Coding Style](#c++-coding-style)
+   - [Source files](#source-files)
+   - [Enums](#enums)
+   - [Statements](#statements)
+   - [Exceptions](#exceptions)
+   - [Functions](#functions)
+   - [Defines](#defines)
+   - [Namespaces](#namespaces)
 
 ## Source files
 
@@ -178,3 +185,8 @@ Here is a guide for C++ Coding Style.
    #define APP_VERSION XSTR(MAJOR_VERSION) "." XSTR(MINOR_VERSION) "." XSTR(PATCH_VERSION)
    ```
 
+## Namespaces
+
+   ```
+   TODO:
+   ```
