@@ -21,7 +21,7 @@ Here is a guide for C++ Coding Style.
 ## Enums.
    
    ```
-   // GOOD.
+   //! GOOD.
    enum class Role
    {
       USER,
@@ -29,7 +29,7 @@ Here is a guide for C++ Coding Style.
       SUPER_USER
    };
    
-   // NOT BAD.
+   /// NOT BAD.
    enum Color
    {
       RED,
