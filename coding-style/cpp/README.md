@@ -112,6 +112,12 @@ Here is a guide for C++ Coding Style.
    
    __Rule of thumb__: Always put a space after for, do, while and before '(' or '{'.
 
+## Exceptions
+
+  ``` cpp
+  TODO:
+  ```
+
 ## Functions
 
    __Naming__: Camel style. Shorthand format is also allowed to use.
