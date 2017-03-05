@@ -7,14 +7,14 @@ Here is a guide for C++ Coding Style.
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
    ```
-   // GOOD
+   // GOOD.
    Main.cpp
    Utils.h + Utils.cpp
    HttpServer.h + HttpServer.cpp
    ErrorDialog.h + ErrorDialog.cpp or ErrDlg.h + ErrDlg.cpp
    FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
    
-   // NEVER EVER
+   // NEVER EVER.
    main.pp
    HTTPServer.h + HTTPServer.cpp
    ```
@@ -24,7 +24,7 @@ Here is a guide for C++ Coding Style.
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
    ``` cpp
-   // GOOD
+   // GOOD.
    std::string GetProductName();
    std::string GetAppName();
    ```
@@ -34,10 +34,10 @@ Here is a guide for C++ Coding Style.
    * Put space between function parameters.
    
    ``` cpp
-   // GOOD
+   // GOOD.
    auto user = std::make_unique<User>("Jason", "Statham", 49);
    
-   // BAD
+   // BAD.
    auto user = std::make_unique<User>("Jason","Statham",49);
    ```
    
@@ -45,7 +45,8 @@ Here is a guide for C++ Coding Style.
    
    ``` cpp
    // Declaration.
-   std::string MakeUser(const std::string& name, const std::string& surname, const int age, const Gender gender, const std::vector<std::string>& hobbies);
+   std::string MakeUser(const std::string& name, const std::string& surname,
+      const int age, const Gender gender, const std::vector<std::string>& hobbies);
    
    // Usage.
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
