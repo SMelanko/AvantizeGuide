@@ -38,6 +38,9 @@ Here is a guide for C++ Coding Style.
       GREEN,
       BLUE
    };
+   
+   // BAD.
+   enum Color { RED, GREEN, BLUE };
    ```
 
 ## Statements.
@@ -45,11 +48,7 @@ Here is a guide for C++ Coding Style.
    * if - else if - else.
    
    ``` cpp
-   // GOOD.
-   if (index > v.size()) {
-      BOOST_THROW_EXCEPTION(std::runtime_error{ "Bad index." });
-   }
-   
+   // GOOD.   
    auto role = GetRole();
    
    if (role == Role::USER) {
@@ -60,6 +59,8 @@ Here is a guide for C++ Coding Style.
       // ...
    }
    ```
+   
+   __Rule of thumb__: Always put a space after if, else if and before '('.
    
    * switch.
    
@@ -108,6 +109,8 @@ Here is a guide for C++ Coding Style.
       // ...
    });
    ```
+   
+   __Rule of thumb__: Always put a space after for, do, while and before '(' or '{'.
 
 ## Functions
 
