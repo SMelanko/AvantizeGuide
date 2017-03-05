@@ -18,7 +18,27 @@ Here is a guide for C++ Coding Style.
    HTTPServer.h + HTTPServer.cpp
    ```
 
-## Funtions
+## Enums.
+   
+   ```
+   // GOOD.
+   enum class Role
+   {
+      USER,
+      ADMIN,
+      SUPER_USER
+   };
+   
+   // NOT BAD.
+   enum Color
+   {
+      RED,
+      GREEN,
+      BLUE
+   };
+   ```
+
+## Functions
 
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
