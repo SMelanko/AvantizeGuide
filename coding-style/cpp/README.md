@@ -50,7 +50,6 @@ Here is a guide for C++ Coding Style.
       BOOST_THROW_EXCEPTION(std::runtime_error{ "Bad index." });
    }
    
-   // GOOD.
    auto role = GetRole();
    
    if (role == Role::USER) {
@@ -65,6 +64,8 @@ Here is a guide for C++ Coding Style.
    * switch.
    
    ``` cpp
+   auto role = GetRole();
+   
    switch (role)
    {
       case Role::USER:
