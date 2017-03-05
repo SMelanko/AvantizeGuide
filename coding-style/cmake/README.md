@@ -6,7 +6,7 @@ Please look through [CMakeLists.txt](CMakeLists.txt).
 
 Here are some rules we are sticking to.
 
-1. All variable in uppercase format, for example:
+1. All variable in uppercase format plus underscore, for example:
 
    ``` cmake
    set(HEADERS ...)
