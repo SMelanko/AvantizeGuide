@@ -123,9 +123,17 @@ Please look through some [examples](src).
 
 ## Exceptions
 
-  ``` cpp
-  TODO:
+   ``` cpp
+   try {
+      // ...
+   } catch (const std::exception& e) {
+      std::cerr << e.what() << std::endl;
+   } catch (...) {
+      std::cerr << "Unhandled exception has been occurred.\n";
+   }
   ```
+  
+  __Rule of thumb__: Always catches exceptions by const reference.
 
 ## Functions
 
