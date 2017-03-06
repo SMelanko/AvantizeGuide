@@ -163,7 +163,7 @@ Please look through some [examples](src).
    ``` cpp
    // GOOD.
    // Declaration.
-   std::string MakeUser(const std::string& name, const std::string& surname,
+   User MakeUser(const std::string& name, const std::string& surname,
       const int age, const Gender gender, const std::vector<std::string>& hobbies);
    // Usage.
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
