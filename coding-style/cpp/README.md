@@ -196,6 +196,10 @@ Please look through some [examples](src).
 
 ## Namespaces
 
-   ```
-   TODO:
+   ``` cpp
+   namespace Sm { namespace Utils {
+   
+   // ...
+   
+   } } // namespace Sm::Utils
    ```
