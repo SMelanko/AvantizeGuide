@@ -27,7 +27,7 @@ Please look through some [examples](src).
    HTTPServer.h + HTTPServer.cpp
    ```
 
-## Enums.
+## Enums
    
    __Naming__: Camel style. Shorthand format is also allowed to use.
    
@@ -52,7 +52,7 @@ Please look through some [examples](src).
    enum Color { RED, GREEN, BLUE };
    ```
 
-## Statements.
+## Statements
 
    * if - else if - else.
    
