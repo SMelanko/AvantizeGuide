@@ -74,6 +74,7 @@ Please look through some [examples](src).
    * switch.
    
    ``` cpp
+   // GOOD.
    auto role = GetRole();
    
    switch (role) {
@@ -123,6 +124,7 @@ Please look through some [examples](src).
 ## Exceptions
 
    ``` cpp
+   // GOOD.
    try {
       // ...
    } catch (const std::exception& e) {
@@ -185,6 +187,7 @@ Please look through some [examples](src).
    __Naming__: Uppercase format plus underscore.
    
    ``` cpp
+   // GOOD.
    #define MAJOR_VERSION 1
    #define MINOR_VERSION 2
    #define PATCH_VERSION 34
@@ -197,6 +200,7 @@ Please look through some [examples](src).
 ## Namespaces
 
    ``` cpp
+   // GOOD.
    namespace Sm { namespace Utils {
    
    // ...
