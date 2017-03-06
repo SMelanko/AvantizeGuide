@@ -76,8 +76,7 @@ Please look through some [examples](src).
    ``` cpp
    auto role = GetRole();
    
-   switch (role)
-   {
+   switch (role) {
       case Role::USER:
          // ...
          break;
