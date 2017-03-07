@@ -20,8 +20,10 @@ std::string File::Read(const bfs::path& filename)
 	}
 
 	std::string data;
-	data.assign((std::istreambuf_iterator<char>(ifs)),
+	data.assign(std::istreambuf_iterator<char>(ifs),
 		std::istreambuf_iterator<char>());
+	
+	return data;
 }
 
 void File::Write(const bfs::path& filename, const std::string& text)
