@@ -19,8 +19,7 @@
 
 8. Static code analyzer
 
-  * Windows: [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
-  * Ubuntu: TODO:
+  * [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
   
 9. Check out [Redmine](../../redmine).
 
