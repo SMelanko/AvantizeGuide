@@ -15,7 +15,7 @@
 
 6. [Boost](http://www.boost.org) libraries.
 
-7. [Qt](https://www.qt.io).
+7. [Qt](https://www.qt.io) (if you installed QtCreator on the 5th step - skip this step).
 
 8. Static code analyzer
 
