@@ -9,7 +9,7 @@ namespace Db {
 class User
 {
 	//
-	// Public type aliases.
+	// Public enumerations.
 	//
 public:
 	// User's roles.
