@@ -10,6 +10,7 @@ Please look through some [examples](src).
    - [Functions](#functions)
    - [Defines](#defines)
    - [Namespaces](#namespaces)
+   - [Classes](#classes)
 
 ## Source files
 
@@ -206,4 +207,37 @@ Please look through some [examples](src).
    // ...
    
    } } // namespace Sm::Utils
+   ```
+
+## Classes
+
+   * Inheritance.
+
+   ``` cpp
+   class C
+      : public B
+      , public C
+   {
+   // ...
+   };
+   ```
+   
+   * Construction and destruction section.
+   
+   ``` cpp
+      //
+	   // Construction and destruction.
+	   //
+   public:
+	   //! Constructor.
+	   User() = default;
+	   //! Constructor.
+	   User(const std::string& name, const std::string& email,
+		   const std::string& pwd, const Role role = Role::USER);
+      //! Destructor.
+      ~User() noexcept = default;
+      //! Move constructor.
+      User(User&& user) noexcept = default;
+      //! Move assignment operator.
+      User& operator=(User&& user) noexcept = default;
    ```
