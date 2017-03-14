@@ -229,9 +229,9 @@ Please look through some [examples](src).
    * Construction and destruction section.
    
    ``` cpp
-   	//
-      // Construction and destruction.
-   	//
+   //
+   // Construction and destruction.
+   //
    public:
    	//! Constructor.
    	User() = default;
