@@ -220,7 +220,7 @@ Please look through some [examples](src).
    
    class C
    	: public B
-	, public C
+   	, public C
    {
    // ...
    };
