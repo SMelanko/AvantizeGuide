@@ -244,6 +244,7 @@ Please look through some [examples](src).
       User(User&& user) noexcept = default;
       //! Move assignment operator.
       User& operator=(User&& user) noexcept = default;
+      // ... Copy constructor and copy assignment operator.
    ```
    
    * Public interface section.
@@ -271,4 +272,5 @@ Please look through some [examples](src).
       void Install();
       //! Uninstalls drivers and helper DLLs from the system.
       void Uninstall();
+      // ...
    ```
