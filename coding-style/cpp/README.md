@@ -245,3 +245,8 @@ Please look through some [examples](src).
 	//! Move assignment operator.
 	User& operator=(User&& user) noexcept = default;
    ```
+   
+   * Public interface section.
+   
+   ``` cpp
+   ```
