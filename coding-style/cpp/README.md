@@ -259,3 +259,16 @@ Please look through some [examples](src).
       const std::string& GetName() const;
       // ...
    ```
+
+   * Private or protected methods section.
+   
+   ``` cpp
+      //
+      // Private methods.
+      //
+   private:
+      //! Installs drivers and helper DLLs to the system.
+	   void Install();
+	   //! Uninstalls drivers and helper DLLs from the system.
+	   void Uninstall();
+   ```
