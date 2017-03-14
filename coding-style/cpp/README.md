@@ -214,6 +214,9 @@ Please look through some [examples](src).
    * Inheritance.
 
    ``` cpp
+   class B;
+   class C;
+   
    //
    // Declaration of the C class.
    //
@@ -229,8 +232,10 @@ Please look through some [examples](src).
    * Construction and destruction section.
    
    ``` cpp
+   class User
+   {
    	//
-  	// Construction and destruction.
+      // Construction and destruction.
    	//
    public:
    	//! Constructor.
