@@ -26,3 +26,12 @@ Here are some rules we are sticking to.
       system
       )
    ```
+3. Functions.
+
+   ``` cmake
+   function(edit_file filename)
+      file(READ ${filename} OLD_FILE_CONTENT)
+      string(REGEX REPLACE " STATIC " " SHARED " NEW_FILE_CONTENT "${OLD_FILE_CONTENT}")
+      file(WRITE ${filename} "${NEW_FILE_CONTENT}")
+   endfunction()
+   ```
