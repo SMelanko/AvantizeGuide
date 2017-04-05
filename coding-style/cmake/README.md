@@ -2,7 +2,7 @@
 
 Here is a guide describes the recommended coding style for CMake.
 
-Please look through [CMakeLists.txt](src/CMakeLists.txt).
+First of all look through [CMakeLists.txt](src/CMakeLists.txt).
 
 Here are some rules we are sticking to.
 
@@ -26,7 +26,7 @@ Here are some rules we are sticking to.
       system
       )
    ```
-3. Functions (Macros).
+3. Function (macro) names and it's params in lower case plus underscore.
 
    ``` cmake
    function(edit_file filename)
@@ -35,5 +35,3 @@ Here are some rules we are sticking to.
       file(WRITE ${filename} "${NEW_FILE_CONTENT}")
    endfunction()
    ```
-   
-   Function (macro) name and it's params in lower case plus underscore.
