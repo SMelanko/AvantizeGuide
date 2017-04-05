@@ -26,7 +26,7 @@ Here are some rules we are sticking to.
       system
       )
    ```
-3. Function (macro) names and it's params in lower case plus underscore.
+3. Function (macro) names and its params are written in lower case plus underscore.
 
    ``` cmake
    function(edit_file filename)
