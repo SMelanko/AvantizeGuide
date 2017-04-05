@@ -26,7 +26,7 @@ Here are some rules we are sticking to.
       system
       )
    ```
-3. Functions.
+3. Functions (Macros).
 
    ``` cmake
    function(edit_file filename)
@@ -36,4 +36,4 @@ Here are some rules we are sticking to.
    endfunction()
    ```
    
-   Function name and function's params in lower case plus underscore.
+   Function (macro) name and it's params in lower case plus underscore.
