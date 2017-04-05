@@ -35,3 +35,5 @@ Here are some rules we are sticking to.
       file(WRITE ${filename} "${NEW_FILE_CONTENT}")
    endfunction()
    ```
+   
+   Function name and function's params in lower case plus underscore.
