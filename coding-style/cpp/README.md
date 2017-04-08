@@ -1,6 +1,6 @@
 # Avantize C++ Coding Style Guide
 
-Please look through some [examples](src).
+First of all look through some [examples](src).
 
 - [C++ Coding Style](#c++-coding-style)
    - [Source files](#source-files)
