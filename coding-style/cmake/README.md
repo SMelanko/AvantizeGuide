@@ -2,7 +2,7 @@
 
 Here is a guide describes the recommended coding style for CMake.
 
-First of all look through [CMakeLists.txt](src/CMakeLists.txt).
+First of all look through [CMakeLists.txt](src/CMakeLists.txt) file.
 
 Here are some rules we are sticking to.
 
