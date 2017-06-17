@@ -11,37 +11,43 @@ First of all look through some [examples](src).
    - [Defines](#defines)
    - [Namespaces](#namespaces)
    - [Classes](#classes)
+   
+   __Naming__: Camel style. Shorthand format is also allowed to use.
 
 ## Source files
-
-   __Naming__: Camel style. Shorthand format is also allowed to use.
    
    ```
-   // GOOD.
+   // Good.
    Main.cpp
    Utils.h + Utils.cpp
    HttpServer.h + HttpServer.cpp
    FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
    
-   // NEVER EVER.
+   // Never ever.
    main.pp
    HTTPServer.h + HTTPServer.cpp
    ```
 
 ## Enums
-   
-   __Naming__: Camel style. Shorthand format is also allowed to use.
-   
+
    ``` cpp
-   // GOOD.
+   // Good.
    enum class Role
    {
       USER,
       ADMIN,
-      SUPER_USER
+      SUPERUSER
    };
    
-   // NOT BAD.
+   // Also good.
+   enum class RoundMode : uint16_t
+   {
+      ROUND_HALF_UP = 1,
+      ROUND_HALF_DOWN,
+      ROUND_BANKERS
+   };
+   
+   // Not bad but prefer enum class variant.
    enum Color
    {
       RED,
@@ -49,8 +55,9 @@ First of all look through some [examples](src).
       BLUE
    };
    
-   // BAD.
+   // Never ever.
    enum Color { RED, GREEN, BLUE };
+   enum class Color { Red, Green, Blue };
    ```
 
 ## Statements
@@ -58,8 +65,8 @@ First of all look through some [examples](src).
    * if - else if - else.
    
    ``` cpp
-   // GOOD.   
-   auto role = GetRole();
+   // Good.   
+   const auto role = GetRole();
    
    if (role == Role::USER) {
       // ...
@@ -68,24 +75,35 @@ First of all look through some [examples](src).
    } else {
       // ...
    }
+   
+   // Also good.
+   if (ok) {
+      Log("Transaction has been successfully processed");
+   }
+   
+   // Never ever.
+   if (ok) { Log("Transaction has been successfully processed"); }
+   if (ok)
+      Log("Transaction has been successfully processed");
    ```
-   
-   __Rule of thumb__: Always put a space after if, else if and before '('.
-   
+
    * switch.
    
    ``` cpp
-   // GOOD.
-   auto role = GetRole();
+   // Good.
+   const auto role = GetRole();
    
-   switch (role) {
+   switch (role)
+   {
       case Role::USER:
-         // ...
+         // In case if one statement.
          break;
 
       case Role::ADMIN:
-         // ...
+      {
+         // In case if several statements.
          break;
+      }
 
       default:
          // ...
@@ -96,7 +114,7 @@ First of all look through some [examples](src).
    * loops.
    
    ``` cpp
-   // GOOD.
+   // Good.
    for (size_t i = 0; i < v.size(); ++i) {
       // ...
    }
@@ -109,43 +127,39 @@ First of all look through some [examples](src).
       // ...
    } while (condition);
    
-   // PERFECT.
+   // Perfect.
    for (const auto& val : v) {
       // ...
    }
    
-   // GOD.
+   // Like C++ God.
    std::for_each(std::begin(v), std::end(v), [](const auto& val) {
       // ...
    });
    ```
-   
-   __Rule of thumb__: Always put a space after for, do, while and before '(' or '{'.
 
 ## Exceptions
 
    ``` cpp
-   // GOOD.
+   // Good.
    try {
       // ...
    } catch (const std::exception& e) {
-      std::cerr << e.what() << std::endl;
+      std::cerr << e.what() << '\n';
    } catch (...) {
       std::cerr << "Unhandled exception has been occurred.\n";
    }
   ```
-  
-  __Rule of thumb__: Always catches exceptions by const reference.
 
 ## Functions
 
-   __Naming__: Camel style. Shorthand format is also allowed to use.
-   
    ``` cpp
-   // GOOD.
+   // Good.
+   //! Returns the product name.
    std::string GetProductName();
    
    using StringOpt = boost::optional<std::string>;
+   //! Returns the name of user agent.
    std::string GetUserAgent(const StringOpt& uin = StringOpt{});
    ```
    
@@ -154,17 +168,17 @@ First of all look through some [examples](src).
    * Put spaces between function parameters in declaration and usage.
    
    ``` cpp
-   // GOOD.
+   // Good.
    auto user = std::make_unique<User>("Jason", "Statham", 49);
    
-   // BAD.
+   // Bad.
    auto user = std::make_unique<User>("Jason","Statham",49);
    ```
    
    * If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
    
    ``` cpp
-   // GOOD.
+   // Good.
    // Declaration.
    User MakeUser(const std::string& name, const std::string& surname,
       const int age, const Gender gender, const std::vector<std::string>& hobbies);
@@ -172,7 +186,7 @@ First of all look through some [examples](src).
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
       { "Acting", "Cooking", "Dance", "Video game" });
       
-   // BAD.
+   // Never ever.
    void Foo(const Parameter1 p1, const Parameter2 p2, ...);
    void Foo(const Parameter1 p1,
       const Parameter2 p2,
@@ -185,10 +199,8 @@ First of all look through some [examples](src).
 
 ## Defines
 
-   __Naming__: Uppercase format plus underscore.
-   
    ``` cpp
-   // GOOD.
+   // Good.
    #define MAJOR_VERSION 1
    #define MINOR_VERSION 2
    #define PATCH_VERSION 34
@@ -201,7 +213,7 @@ First of all look through some [examples](src).
 ## Namespaces
 
    ``` cpp
-   // GOOD.
+   // Good.
    namespace Sm { namespace Utils {
    
    // ...
