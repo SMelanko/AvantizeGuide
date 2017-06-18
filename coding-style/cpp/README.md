@@ -270,9 +270,9 @@ First of all look through some [examples](src).
       //
    public:
       //! Returns user's email.
-      const std::string& GetEmail() const;
+      const std::string& GetEmail() const noexcept;
       //! Returns user's name.
-      const std::string& GetName() const;
+      const std::string& GetPassword() const noexcept;
       // ...
    ```
 
