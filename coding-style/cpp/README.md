@@ -10,7 +10,7 @@ First of all look through some [examples](src).
    - [Functions](#functions)
    - [Defines](#defines)
    - [Namespaces](#namespaces)
-   - [Classes](#classes)
+   - [Classes Declaration](#classes-declaration)
    
    __Naming__: Camel style. Shorthand format is also allowed to use.
 
@@ -221,7 +221,7 @@ First of all look through some [examples](src).
    } } // namespace Sm::Utils
    ```
 
-## Classes
+## Classes Declaration
 
    * Inheritance.
 
@@ -299,4 +299,27 @@ First of all look through some [examples](src).
    private:
       //! Redis client.
       std::shared_ptr<cpp_redis::redis_client> redisClient_;
+   ```
+   
+   * Inline section.
+   
+   ``` cpp
+   class User
+   {
+      // ...
+   };
+   
+   //
+   // Inline implementation.
+   //
+   
+   inline const std::string& User::GetEmail() const noexcept
+   {
+	   return email_;
+   }
+
+   inline const std::string& User::GetPassword() const noexcept
+   {
+	   return pwd_;
+   }
    ```
