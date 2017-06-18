@@ -250,12 +250,15 @@ First of all look through some [examples](src).
       //! Constructor.
       User(const std::string& name, const std::string& email,
          const std::string& pwd, const Role role = Role::USER);
+
       //! Destructor.
       ~User() noexcept = default;
+
       //! Move constructor.
       User(User&& user) noexcept = default;
       //! Move assignment operator.
       User& operator=(User&& user) noexcept = default;
+
       // ... Copy constructor and copy assignment operator.
    ```
    
@@ -290,11 +293,11 @@ First of all look through some [examples](src).
    * Private data member section.
    
    ``` cpp
-      //
-	   // Private data members.
-	   //
+   	//
+   	// Private data members.
+   	//
    private:
-	   //! Redis client.
-	   std::shared_ptr<cpp_redis::redis_client> redisClient_;
+   	//! Redis client.
+   	std::shared_ptr<cpp_redis::redis_client> redisClient_;
 
    ```
