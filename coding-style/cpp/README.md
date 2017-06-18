@@ -293,11 +293,10 @@ First of all look through some [examples](src).
    * Private data member section.
    
    ``` cpp
-   	//
-   	// Private data members.
-   	//
+      //
+      // Private data members.
+      //
    private:
-   	//! Redis client.
-   	std::shared_ptr<cpp_redis::redis_client> redisClient_;
-
+      //! Redis client.
+      std::shared_ptr<cpp_redis::redis_client> redisClient_;
    ```
