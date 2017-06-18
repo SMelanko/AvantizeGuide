@@ -232,7 +232,7 @@ First of all look through some [examples](src).
    
    class C
       : public B
-      , private C
+      , private A
    {
       // ...
    };
@@ -285,4 +285,16 @@ First of all look through some [examples](src).
       //! Uninstalls drivers and helper DLLs from the system.
       void Uninstall();
       // ...
+   ```
+   
+   * Private data member section.
+   
+   ``` cpp
+      //
+	   // Private data members.
+	   //
+   private:
+	   //! Redis client.
+	   std::shared_ptr<cpp_redis::redis_client> redisClient_;
+
    ```
