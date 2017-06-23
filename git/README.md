@@ -29,6 +29,7 @@ Here is a guide how to start working with Git.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-3.png"/></p>
 6. On the Selection page click 'Continue' button.
 
+
 7. Pass authentication to the git.avantize.com.
 
    If you made a passphrase before - enter it, else - leave this field empty.
