@@ -52,7 +52,7 @@ Here is a guide how to start working with Git.
 
    Please note we use pattern for naming of branches.
    ```
-   feature/branch-name
+   branch-name/
    ```
    For example:
    ```
