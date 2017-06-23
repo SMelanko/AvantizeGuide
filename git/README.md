@@ -19,7 +19,7 @@ Here is a guide how to start working with Git.
 2. Then open [Your projects](https://git.avantize.com "Git Avantize") and go to your leaning project.
 3. Copy URL for your learning repository.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-1.png"/></p>
-4. Launch SmartGit -> '_Repository_' -> '_Clone..._'.
+4. Launch SmartGit -> ' _Repository_ ' -> _Clone..._.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-2.png"/></p>
 5. Paste your URL which was copied on the 3rd step and click '_Continue_' button.
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-3.png"/></p>
