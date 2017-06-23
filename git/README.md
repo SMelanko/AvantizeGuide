@@ -22,8 +22,7 @@ Here is a guide how to start working with Git.
 <p align="center"></p>
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-1.png"/></p>
 4. Launch SmartGit -> 'Repository' -> 'Clone...'.
-
-
+<p align="center"></p>
 <p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/first-steps/img-2.png"/></p>
 5. Paste your URL which was copied on the 3rd step and click 'Continue' button.
 
