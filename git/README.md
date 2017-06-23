@@ -6,10 +6,6 @@ Here is a guide how to start working with Git.
    - [Introduction](#introduction)
    - [First Steps](#first-steps)
    - [Braches](#branches)
-   - [Commit](#commit)
-   - [Push](#push)
-   - [Merge Request](#merge-request)
-   - [Pull](#pull)
 
 ## Introduction
 
@@ -39,12 +35,6 @@ Here is a guide how to start working with Git.
 ## Branches
 
    A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process in Git. You can think of them as a way to request a brand new working directory, staging area, and project history.
-   
-1. Open SmartGit, select a project and navigate to the '_Branches_' widget. Right click on '_Local Branches_' item -> '_Add Branch..._'.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/branches/img-1.png"/></p>
-2. Name your local branch.
-
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/branches/img-2.png"/></p>
 
    Please note we use pattern for naming of branches.
    ```
@@ -61,13 +51,8 @@ Here is a guide how to start working with Git.
 ## Commit
 
    A Commit command is used to save local changes in the local repository.
-   
-1. Open SmartGit, select a project and navigate to the '_Files_' widget. Select files which you want to commit. Right click on selected files and click '_Commit..._'.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/commit/img-1.png"/></p>
-2. In the opened dialog you should describe that you have done and click '_Commit_' button.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/commit/img-2.png"/></p>
 
-   Please use past simple or past simple passive forms for commit.
+   Note that you should use past simple or past simple passive forms for commit messages.
  
    If you have done a lot of changes just numerate them, for example:
    ```
@@ -76,50 +61,9 @@ Here is a guide how to start working with Git.
    3. ...
    ```
 
-   If you don't know what you should write, use these tips:
+   And if you don't have any idea what you should write, use these tips:
    ```
-   n. Code refactoring.
-   n. Fixed code issues.
+   4. Code refactoring was made.
+   5. Fixed code issues.
+   6. Made bug fixes and code improvements.
    ```
-
-3. There are two ways to go forward:
-   * You decided to fix or add some code - repeat 1st and 2nd steps from this item.
-   * You finished task - go to [Push](#push) item.
-
-## Push
-   
-   A Push command is used to push the current branch or changes in all tracking branches to the remote repository.
-
-1. All changes were commited and they are under your local branch. Time to push changes to the [server](git.avantize.com). Select current branch -> right click on it -> Push..
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/push/img-1.png"/></p>
-
-   Now all changes on the remote repository. Go to the [Merge Request](#merge-request) item.
-
-## Merge Request
-
-   A Merge Request command is used to merge changes from your branch into develop branch.
-
-1. If you haven't pushed changes to the server - just skip this item, else - open [remote repository](https://git.avantize.com) and go to your project.
-2. Click Create Merge Request button (in the top-right corner).
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/merge-request/img-1.png"/></p>
-3. Fill Title, Description fields, set Assignee (your supervisor) and click Submit merge request.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/merge-request/img-2.png"/></p>
-
-   If everything okay and supervisor has approved your code then you switch to develop branch (Check Out...), make [Pull](#pull) and delete that branch.
-   
-   Else if you did some mistakes then you receive notifications which point you what you must fix. Fix them, [Commit](#commit) and [Push](#push) once again.
-
-## Pull
-
-   A Pull command incorporates changes from a remote repository into the current branch.
-   
-1. Open SmartGit and push Pull button (in the top-left corner).
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/pull/img-1.png"/></p>
-2. Pass configuration settings (just leave everything by default) and press Configure.
-
-   This dialog appears only once during configuration.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/pull/img-2.png"/></p>
-3. And after all press Pull.
-<p align="center"><img src="https://raw.github.com/SMelanko/AvantizeGuide/master/git/imgs/pull/img-3.png"/></p>
-
-   Now all files from the project must be updated.
