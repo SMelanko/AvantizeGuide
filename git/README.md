@@ -12,7 +12,7 @@ Here is a guide how to start working with Git.
 
    Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-   We use SmartGit as a graphical Git client which runs on all major platforms.
+   We use [SmartGit](http://www.syntevo.com/smartgit/) as a graphical Git client which runs on all major platforms.
 
 ## First Steps
 
