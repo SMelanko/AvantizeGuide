@@ -86,5 +86,6 @@ Here is a guide how to start working with Git.
 
 Use links below to find out more about Git workflow process:
 
-*. [Eng](http://nvie.com/posts/a-successful-git-branching-model/)
-*. [Rus](https://habrahabr.ru/post/106912/)
+
+1. [Eng](http://nvie.com/posts/a-successful-git-branching-model/)
+2. [Rus](https://habrahabr.ru/post/106912/)
