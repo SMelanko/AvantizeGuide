@@ -6,6 +6,7 @@ Here is a guide how to start working with Git.
    - [Introduction](#introduction)
    - [First Steps](#first-steps)
    - [Braches](#branches)
+   - [Workflow](#workflow)
 
 ## Introduction
 
@@ -72,3 +73,6 @@ Here is a guide how to start working with Git.
    5. Fixed code issues.
    6. Made bug fixes and code improvements.
    ```
+
+## Workflow
+
