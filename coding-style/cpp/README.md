@@ -34,25 +34,25 @@ First of all look through some [examples](src).
    // Good.
    enum class Role
    {
-      USER,
-      ADMIN,
-      SUPERUSER
+      User,
+      Admin,
+      Superuser
    };
    
    // Also good.
    enum class RoundMode : uint16_t
    {
-      ROUND_HALF_UP = 1,
-      ROUND_HALF_DOWN,
-      ROUND_BANKERS
+      RoundHalfUp = 1,
+      RoundHalfDown,
+      RoundBankers
    };
    
    // Not bad but prefer enum class variant.
    enum Color
    {
-      RED,
-      GREEN,
-      BLUE
+      Red,
+      Green,
+      Blue
    };
    
    // Never ever.
@@ -68,17 +68,29 @@ First of all look through some [examples](src).
    // Good.   
    const auto role = GetRole();
    
-   if (role == Role::USER) {
+   if (role == Role::User)
+   {
       // ...
-   } else if (role == Role::ADMIN) {
+   }
+   else if (role == Role::Admin)
+   {
       // ...
-   } else {
+   }
+   else
+   {
       // ...
    }
    
-   // Also good.
+   // Also good if statement has only 1 line of code.
    if (ok) {
       Log("Transaction has been successfully processed");
+   }
+   
+   // In case if stetement has more than 1 line of code.
+   if (!ok)
+   {
+      Log("Failed to save transaction");
+      BOOST_THROW_EXCEPTION(std::runtime_error{ "Failed to save transaction" });
    }
    
    // Never ever.
@@ -96,18 +108,20 @@ First of all look through some [examples](src).
    switch (role)
    {
       case Role::USER:
+      {
          // In case if one statement.
          break;
-
+      }
       case Role::ADMIN:
       {
          // In case if several statements.
          break;
       }
-
       default:
+      {
          // ...
          break;
+      }
    }
    ```
    
@@ -116,9 +130,16 @@ First of all look through some [examples](src).
    ``` cpp
    // Good.
    for (size_t i = 0; i < v.size(); ++i) {
-      // ...
+      // In case if there is only 1 line here.
    }
    
+   for (size_t i = 0; i < v.size(); ++i)
+   {
+      // In case if there are
+      // 2 or more lines here.
+   }
+   
+   // The same rules for while and do-while loops.
    while (condition) {
       // ...
    }
@@ -142,11 +163,18 @@ First of all look through some [examples](src).
 
    ``` cpp
    // Good.
-   try {
-      // ...
-   } catch (const std::exception& e) {
+   try
+   {
+      // Doesn't matter how many lines of code here - 
+      // always the same format for try-catch blocks.
+   }
+   catch (const std::exception& e)
+   {
+      Log(e.what());
       std::cerr << e.what() << '\n';
-   } catch (...) {
+   }
+   catch (...)
+   {
       std::cerr << "Unhandled exception has been occurred.\n";
    }
   ```
@@ -214,11 +242,15 @@ First of all look through some [examples](src).
 
    ``` cpp
    // Good.
-   namespace Sm { namespace Utils {
+   namespace sm
+   {
+   namespace utils
+   {
    
    // ...
    
-   } } // namespace Sm::Utils
+   } // namespace utils
+   } // namespace sm
    ```
 
 ## Classes Declaration
@@ -250,10 +282,8 @@ First of all look through some [examples](src).
       //! Constructor.
       User(const std::string& name, const std::string& email,
          const std::string& pwd, const Role role = Role::USER);
-
       //! Destructor.
       ~User() noexcept = default;
-
       //! Move constructor.
       User(User&& user) noexcept = default;
       //! Move assignment operator.
@@ -300,6 +330,8 @@ First of all look through some [examples](src).
       //! Redis client.
       std::shared_ptr<cpp_redis::redis_client> redisClient_;
    ```
+   
+   Class member format is in camel style plus underscore at the end.
    
    * Inline section.
    
