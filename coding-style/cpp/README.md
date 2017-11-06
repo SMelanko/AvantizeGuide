@@ -107,12 +107,12 @@ First of all look through some [examples](src).
    
    switch (role)
    {
-      case Role::USER:
+      case Role::User:
       {
          // In case if one statement.
          break;
       }
-      case Role::ADMIN:
+      case Role::Admin:
       {
          // In case if several statements.
          break;
