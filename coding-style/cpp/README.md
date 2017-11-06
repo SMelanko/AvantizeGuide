@@ -165,7 +165,7 @@ First of all look through some [examples](src).
    // Good.
    try
    {
-      // Doesn't matter how many lines of code here - 
+      // It doesn't matter how many lines of code here - 
       // always the same format for try-catch blocks.
    }
    catch (const std::exception& e)
