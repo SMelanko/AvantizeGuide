@@ -86,7 +86,7 @@ First of all look through some [examples](src).
       Log("Transaction has been successfully processed");
    }
    
-   // In case if stetement has more than 1 line of code.
+   // In case if statement has more than 1 line of code.
    if (!ok)
    {
       Log("Failed to save transaction");
