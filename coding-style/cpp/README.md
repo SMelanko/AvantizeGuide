@@ -185,7 +185,57 @@ First of all look through some [examples](src).
    });
    ```
 
+   1. Loop variables should be initialized immediately before the loop.
+
+   ``` cpp
+   // Good.
+   bool isDone = false;
+
+   while (!isDone) {
+      // ...
+   }
+
+   // Not!
+   bool isDone = false;
+   // ...
+   while (!isDone) {
+      // ...
+   }
+   ```
+
+   2. The form while(true) should be used for infinite loops.
+
+   3. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
+
+   ``` cpp
+   // Good.
+   const bool isFinished = (elementNo < 0) || (elementNo > maxElement);
+   const bool isRepeatedEntry = elementNo == lastElement;
+   if (isFinished || isRepeatedEntry) {
+      // ...
+   }
+
+   // Not!
+   if ((elementNo < 0) || (elementNo > maxElement) || elementNo == lastElement) {
+      // ...
+   }
+   ```
+
+   4. The conditional should be put on a separate line.
+
+   ``` cpp
+   // Good.
+   if (isDone) {
+      doCleanup();
+   }
+
+   // Bad!
+   if (isDone) doCleanup();
+   ```
+
 ## Exceptions
+
+   1. A try-catch statement should have the following form:
 
    ``` cpp
    // Good.
@@ -203,7 +253,16 @@ First of all look through some [examples](src).
    {
       std::cerr << "Unhandled exception has been occurred.\n";
    }
-  ```
+   ```
+
+   2. Exception classes should be suffixed with Exception.
+
+   ``` cpp
+   class AccessException
+   {
+      // ...
+   };
+   ```
 
 ## Functions
 
