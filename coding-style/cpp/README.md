@@ -56,6 +56,8 @@ First of all look through some [examples](src).
 
 ## Enums
 
+   1. Enums should have the following form:
+
    ``` cpp
    // Good.
    enum class Role
@@ -88,10 +90,10 @@ First of all look through some [examples](src).
 
 ## Statements
 
-   * if - else if - else.
+   1. If - else if - else should have the following form:
    
    ``` cpp
-   // Good.   
+   // Good.
    const auto role = GetRole();
    
    if (role == Role::User)
@@ -119,13 +121,14 @@ First of all look through some [examples](src).
       BOOST_THROW_EXCEPTION(std::runtime_error{ "Failed to save transaction" });
    }
    
-   // Never ever.
+   // Never ever!
    if (ok) { Log("Transaction has been successfully processed"); }
+   if (ok) Log("Transaction has been successfully processed");
    if (ok)
       Log("Transaction has been successfully processed");
    ```
 
-   * switch.
+   2. Switch should have the following form:
    
    ``` cpp
    // Good.
@@ -151,7 +154,7 @@ First of all look through some [examples](src).
    }
    ```
    
-   * loops.
+   3. Loops should have the following form:
    
    ``` cpp
    // Good.
@@ -185,7 +188,7 @@ First of all look through some [examples](src).
    });
    ```
 
-   1. Loop variables should be initialized immediately before the loop.
+   4. Loop variables should be initialized immediately before the loop.
 
    ``` cpp
    // Good.
@@ -203,9 +206,9 @@ First of all look through some [examples](src).
    }
    ```
 
-   2. The form while(true) should be used for infinite loops.
+   5. The form while(true) should be used for infinite loops.
 
-   3. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
+   6. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
 
    ``` cpp
    // Good.
@@ -221,7 +224,7 @@ First of all look through some [examples](src).
    }
    ```
 
-   4. The conditional should be put on a separate line.
+   7. The conditional should be put on a separate line.
 
    ``` cpp
    // Good.
