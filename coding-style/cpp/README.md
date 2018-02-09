@@ -14,7 +14,7 @@ First of all look through some [examples](src).
    
    __Naming__: Camel style. Shorthand format is also allowed to use.
 
-## Header And Source files
+## Header And Source Files
 
    1. Header files should have the extension .h whereas source files - .c++.
    
