@@ -267,29 +267,29 @@ First of all look through some [examples](src).
 
 ## Functions
 
+   1. Names representing functions must be verbs and written in mixed case starting with upper case:
+   
    ``` cpp
-   // Good.
    //! Returns the product name.
    std::string GetProductName();
    
    using StringOpt = boost::optional<std::string>;
+
    //! Returns the name of user agent.
    std::string GetUserAgent(const StringOpt& uin = StringOpt{});
    ```
    
-   __Rule of thumb__:
-   
-   * Put spaces between function parameters in declaration and usage.
+   2. Put spaces between function parameters in declaration and usage:
    
    ``` cpp
    // Good.
    auto user = std::make_unique<User>("Jason", "Statham", 49);
    
-   // Bad.
+   // Bad!
    auto user = std::make_unique<User>("Jason","Statham",49);
    ```
    
-   * If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
+   3. If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
    
    ``` cpp
    // Good.
@@ -300,7 +300,7 @@ First of all look through some [examples](src).
    const auto user = MakeUser("Jason", "Statham", 49, Gender::Male,
       { "Acting", "Cooking", "Dance", "Video game" });
       
-   // Never ever.
+   // Never ever!
    void Foo(const Parameter1 p1, const Parameter2 p2, ...);
    void Foo(const Parameter1 p1,
       const Parameter2 p2,
