@@ -81,7 +81,7 @@ First of all look through some [examples](src).
       Blue
    };
    
-   // Never ever.
+   // Never ever!
    enum Color { RED, GREEN, BLUE };
    enum class Color { Red, Green, Blue };
    ```
