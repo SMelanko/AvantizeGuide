@@ -289,7 +289,7 @@ First of all look through some [examples](src).
    auto user = std::make_unique<User>("Jason","Statham",49);
    ```
    
-   3. If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line.
+   3. If a function has a lot of parameters - don't write all of them in one line or don't write each parameter in one line:
    
    ``` cpp
    // Good.
