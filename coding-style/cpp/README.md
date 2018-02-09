@@ -315,8 +315,9 @@ First of all look through some [examples](src).
 
 ## Defines
 
+   1. Defines must be all uppercase using underscore to separate words:
+   
    ``` cpp
-   // Good.
    #define MAJOR_VERSION 1
    #define MINOR_VERSION 2
    #define PATCH_VERSION 34
@@ -328,8 +329,9 @@ First of all look through some [examples](src).
 
 ## Namespaces
 
+   1. Names representing namespaces should be all lowercase:
+   
    ``` cpp
-   // Good.
    namespace sm
    {
    namespace utils
