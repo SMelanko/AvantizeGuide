@@ -16,7 +16,7 @@ First of all look through some [examples](src).
 
 ## Header And Source Files
 
-   1. Header files should have the extension .h whereas source files - .c++.
+   1. Header files should have the extension .h whereas source files - .cpp.
    
    2. A class should be declared in a header file and defined in a source file where the name of the files match the name of the class.
 
