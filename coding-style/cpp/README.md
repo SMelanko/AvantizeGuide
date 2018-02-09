@@ -15,7 +15,11 @@ First of all look through some [examples](src).
    __Naming__: Camel style. Shorthand format is also allowed to use.
 
 ## Source files
-   
+
+   1.1 Header files should have the extension .h whereas source files - .c++.
+
+   1.2 A class should be declared in a header file and defined in a source file where the name of the files match the name of the class.
+
    ```
    // Good.
    Main.cpp
@@ -23,10 +27,34 @@ First of all look through some [examples](src).
    HttpServer.h + HttpServer.cpp
    FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
    
-   // Never ever.
+   // Never ever!
    main.pp
    HTTPServer.h + HTTPServer.cpp
    ```
+
+   1.3 All definitions should reside in source files.
+
+   ```
+   class Counter
+   {
+   public:
+     int GetValue() const { return value_; } // No!
+     ...
+
+   private:
+     int value_;
+   };
+   ```
+
+   The header files should declare an interface, the source file should implement it.
+
+   1.4 File content must be kept within 80 columns.
+
+   80 columns is a common dimension for editors, terminal emulators, printers and debuggers, and files that are shared between several people should keep within these constraints. It improves readability when unintentional line breaks are avoided when passing a file between programmers.
+
+   1.5 Header files must contain an include guard.
+
+   1.6 TODO: Include statements should be sorted and grouped. Leave an empty line between groups of include statements.
 
 ## Enums
 
