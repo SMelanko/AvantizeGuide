@@ -128,7 +128,35 @@ First of all look through some [examples](src).
       Log("Transaction has been successfully processed");
    ```
 
-   2. Switch should have the following form:
+   2. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
+
+   ``` cpp
+   // Good.
+   const bool isFinished = (elementNo < 0) || (elementNo > maxElement);
+   const bool isRepeatedEntry = elementNo == lastElement;
+   if (isFinished || isRepeatedEntry) {
+      // ...
+   }
+
+   // Not!
+   if ((elementNo < 0) || (elementNo > maxElement) || elementNo == lastElement) {
+      // ...
+   }
+   ```
+
+   3. The conditional should be put on a separate line.
+
+   ``` cpp
+   // Good.
+   if (isDone) {
+      doCleanup();
+   }
+
+   // Bad!
+   if (isDone) doCleanup();
+   ```
+
+   4. Switch should have the following form:
    
    ``` cpp
    // Good.
@@ -154,7 +182,7 @@ First of all look through some [examples](src).
    }
    ```
    
-   3. Loops should have the following form:
+   5. Loops should have the following form:
    
    ``` cpp
    // Good.
@@ -188,7 +216,7 @@ First of all look through some [examples](src).
    });
    ```
 
-   4. Loop variables should be initialized immediately before the loop.
+   6. Loop variables should be initialized immediately before the loop.
 
    ``` cpp
    // Good.
@@ -206,35 +234,7 @@ First of all look through some [examples](src).
    }
    ```
 
-   5. The form while(true) should be used for infinite loops.
-
-   6. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
-
-   ``` cpp
-   // Good.
-   const bool isFinished = (elementNo < 0) || (elementNo > maxElement);
-   const bool isRepeatedEntry = elementNo == lastElement;
-   if (isFinished || isRepeatedEntry) {
-      // ...
-   }
-
-   // Not!
-   if ((elementNo < 0) || (elementNo > maxElement) || elementNo == lastElement) {
-      // ...
-   }
-   ```
-
-   7. The conditional should be put on a separate line.
-
-   ``` cpp
-   // Good.
-   if (isDone) {
-      doCleanup();
-   }
-
-   // Bad!
-   if (isDone) doCleanup();
-   ```
+   7. The form while(true) should be used for infinite loops.
 
 ## Exceptions
 
