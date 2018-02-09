@@ -18,7 +18,7 @@ First of all look through some [examples](src).
 
    1. Header files should have the extension .h whereas source files - .cpp.
    
-   2. A class should be declared in a header file and defined in a source file where the name of the files match the name of the class.
+   2. A class should be declared in a header file and defined in a source file where the name of the files match the name of the class:
 
    ```
    // Good.
@@ -32,7 +32,7 @@ First of all look through some [examples](src).
    HTTPServer.h + HTTPServer.cpp
    ```
 
-   3. All definitions should reside in source files.
+   3. All definitions should reside in source files:
 
    ``` cpp
    class Counter
@@ -128,7 +128,7 @@ First of all look through some [examples](src).
       Log("Transaction has been successfully processed");
    ```
 
-   2. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead.
+   2. Complex conditional expressions must be avoided. Introduce temporary boolean variables instead:
 
    ``` cpp
    // Good.
@@ -144,7 +144,7 @@ First of all look through some [examples](src).
    }
    ```
 
-   3. The conditional should be put on a separate line.
+   3. The conditional should be put on a separate line:
 
    ``` cpp
    // Good.
@@ -216,12 +216,11 @@ First of all look through some [examples](src).
    });
    ```
 
-   6. Loop variables should be initialized immediately before the loop.
+   6. Loop variables should be initialized immediately before the loop:
 
    ``` cpp
    // Good.
    bool isDone = false;
-
    while (!isDone) {
       // ...
    }
@@ -241,10 +240,9 @@ First of all look through some [examples](src).
    1. A try-catch statement should have the following form:
 
    ``` cpp
-   // Good.
    try
    {
-      // It doesn't matter how many lines of code here - 
+      // It does not matter how many lines of code here - 
       // always the same format for try-catch blocks.
    }
    catch (const std::exception& e)
@@ -258,7 +256,7 @@ First of all look through some [examples](src).
    }
    ```
 
-   2. Exception classes should be suffixed with Exception.
+   2. Exception classes should be suffixed with Exception:
 
    ``` cpp
    class AccessException
