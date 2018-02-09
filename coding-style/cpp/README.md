@@ -3,7 +3,7 @@
 First of all look through some [examples](src).
 
 - [C++ Coding Style](#c++-coding-style)
-   - [Source files](#source-files)
+   - [Header And Source Files](#source-files)
    - [Enums](#enums)
    - [Statements](#statements)
    - [Exceptions](#exceptions)
@@ -343,13 +343,9 @@ First of all look through some [examples](src).
 
 ## Classes Declaration
 
-   * Inheritance.
+   1. The parts of a class and inheritance list must be sorted public, protected and private:
 
    ``` cpp
-   //
-   // Declaration of the C class.
-   //
-   
    class C
       : public B
       , private A
@@ -358,7 +354,7 @@ First of all look through some [examples](src).
    };
    ```
    
-   * Construction and destruction section.
+   2. Construction and destruction section:
    
    ``` cpp
       //
@@ -380,7 +376,7 @@ First of all look through some [examples](src).
       // ... Copy constructor and copy assignment operator.
    ```
    
-   * Public interface section.
+   3. Public interface section:
    
    ``` cpp
       //
@@ -394,7 +390,7 @@ First of all look through some [examples](src).
       // ...
    ```
 
-   * Private or protected methods section.
+   4. Private or protected methods section:
    
    ``` cpp
       //
@@ -408,7 +404,7 @@ First of all look through some [examples](src).
       // ...
    ```
    
-   * Private data member section.
+   5. Private data member section:
    
    ``` cpp
       //
@@ -419,9 +415,9 @@ First of all look through some [examples](src).
       std::shared_ptr<cpp_redis::redis_client> redisClient_;
    ```
    
-   Class member format is in camel style plus underscore at the end.
+   Private class variables should have underscore suffix.
    
-   * Inline section.
+   6. Inline section.
    
    ``` cpp
    class User
