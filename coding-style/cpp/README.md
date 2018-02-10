@@ -22,14 +22,14 @@ First of all look through some [examples](src).
 
    ```
    // Good.
-   Main.cpp
    Utils.h + Utils.cpp
    HttpServer.h + HttpServer.cpp
-   FileManager.h + FileManager.cpp or FileMgr.h + FileMgr.cpp
+   FileManager.h + FileManager.cpp
    
    // Never ever!
-   main.pp
+   main.cpp
    HTTPServer.h + HTTPServer.cpp
+   request_router.h + request_router.cpp
    ```
 
    3. All definitions should reside in source files:
