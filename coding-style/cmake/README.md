@@ -1,4 +1,4 @@
-# Avantize CMake Coding Style Guide
+# CMake Coding Style Guide
 
 Here is a guide describes the recommended coding style for CMake.
 

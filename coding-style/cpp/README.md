@@ -1,4 +1,4 @@
-# Avantize C++ Coding Style Guide
+# C++ Coding Style Guide
 
 First of all look through some [examples](src).
 
